@@ -53,3 +53,21 @@ header nav a:hover {
     width: 100%;
     height: auto;
 }
+
+.bodySection {
+    margin-left: 200px;
+    margin-top: 50px;
+    margin-right: 100px;
+    border-left: 6px solid var(--secondaryColor);
+}
+
+.bodySectionHeading {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 75px;
+    margin-left: 20px;
+}
+
+.bodySection p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 20px;
+}

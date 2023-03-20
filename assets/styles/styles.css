@@ -3,6 +3,10 @@
     --secondaryColor: #2e73ce;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 header {
     background-color: var(--primaryColor);
     display: flex;

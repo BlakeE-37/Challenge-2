@@ -59,19 +59,32 @@ header nav a:hover {
 }
 
 .bodySection {
-    margin-left: 200px;
-    margin-top: 50px;
-    margin-right: 100px;
+    margin-left: 20%;
+    margin-top: 5%;
+    margin-right: 10%;
     border-left: 6px solid var(--secondaryColor);
 }
 
 .bodySectionHeading {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 75px;
-    margin-left: 20px;
+    margin-left: 1%;
 }
 
 .bodySection p {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    margin-left: 20px;
+    margin-left: 1%;
+}
+
+/* sets margin */
+.projectImg {
+    margin: 1%;
+    border: 5px solid var(--primaryColor);
+}
+
+.projectPictureTop {
+    width: 100%;
+    height: auto;
+    /* this line below fixes an issue where there is space below the image == https://www.geeksforgeeks.org/how-to-get-rid-of-the-gap-under-the-image/ */
+    display: block;
 }

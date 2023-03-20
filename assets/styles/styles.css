@@ -76,7 +76,7 @@ header nav a:hover {
     margin-left: 1%;
 }
 
-/* sets margin */
+/* sets margin and sizeing for the larger top project image*/
 .projectImg {
     margin: 1%;
     border: 5px solid var(--primaryColor);
@@ -87,4 +87,22 @@ header nav a:hover {
     height: auto;
     /* this line below fixes an issue where there is space below the image == https://www.geeksforgeeks.org/how-to-get-rid-of-the-gap-under-the-image/ */
     display: block;
+}
+
+/* sets margin and sizing for the lower two prject images  */
+.projectPicture {
+    max-width: 100%;
+    height: 100%;
+}
+
+.projectImgLower {
+    margin-left: 1%;
+    margin-top: 1%;
+    border: 5px solid var(--primaryColor);
+}
+
+.lowerProject {
+    width: 47.5%;
+    display: inline-block;
+    line-height: 0;
 }

@@ -140,3 +140,10 @@ header nav a:hover {
 .contactList li a:hover {
     color: #820303;
 }
+
+@media screen and (max-width: 992px) {
+    header nav {
+        flex-direction: column;
+        line-height: 30px;
+    }
+}

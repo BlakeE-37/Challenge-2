@@ -21,6 +21,7 @@ header {
     margin: 10px;
     width: 20%;
     height: auto;
+    object-fit: cover;
     border: 2px solid var(--secondaryColor);
     border-radius: 10%;
 }
@@ -29,7 +30,7 @@ header h1 {
     font-family: Arial, Helvetica, sans-serif;
     white-space: nowrap;
     color: white;
-    font-size: 100px;
+    font-size: 7vw;
     font-weight: bold;
 }
 
@@ -46,7 +47,7 @@ header nav a {
     color: var(--secondaryColor);
     width: 300px;
     justify-content: space-between;
-    font-size: 30px;
+    font-size: 2vw;
 }
 
 header nav a:hover {
@@ -78,6 +79,7 @@ header nav a:hover {
 
 /* sets margin and sizeing for the larger top project image*/
 .projectImg {
+    width: 100%;
     margin: 1%;
     border: 5px solid var(--primaryColor);
 }
@@ -102,7 +104,7 @@ header nav a:hover {
 }
 
 .lowerProject {
-    width: 47.5%;
+    width: 40%;
     display: inline-block;
     line-height: 0;
 }
@@ -114,7 +116,7 @@ header nav a:hover {
     background-color: var(--secondaryColor);
     color: white;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 100%;
+    font-size: 1vw;
 }
 
 /* hover effect for the "my work" images */
@@ -145,5 +147,14 @@ header nav a:hover {
     header nav {
         flex-direction: column;
         line-height: 30px;
+    }
+
+    header h1 {
+        white-space: inherit;
+    }
+
+    .lowerProject {
+        width: 100%;
+        margin: 1%;
     }
 }
